@@ -2,12 +2,12 @@
   "hibernate": {
     "groupId": "org.hibernate.orm",
     "artifactId": "hibernate-core",
-    "version": "7.1.0.Final"
+    "version": "7.4.4.Final"
   },
   "maven-compiler-plugin": {
     "groupId": "org.apache.maven.plugins",
     "artifactId": "maven-compiler-plugin",
-    "version": "3.14.1"
+    "version": "3.15.0"
   },
   "jakarta-faces-10.0.0": {
     "groupId": "jakarta.faces",
@@ -64,9 +64,9 @@
     "version": "2.0.1"
   },
   "jackson-core": {
-    "groupId": "com.fasterxml.jackson.core",
+    "groupId": "tools.jackson.core",
     "artifactId": "jackson-core",
-    "version": "2.19.1"
+    "version": "3.1.1"
   },
   "microprofile-openapi-api": {
     "groupId": "org.eclipse.microprofile.openapi",
@@ -87,6 +87,11 @@
     "groupId": "org.openapitools",
     "artifactId": "openapi-generator-maven-plugin",
     "version": "7.23.0"
+  },
+  "payara-micro-maven-plugin":{
+    "groupId":"fish.payara.maven.plugins",
+    "artifactId":"payara-micro-maven-plugin",
+    "version":"2.5.2"
   }
  
 }
